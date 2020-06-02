@@ -14,6 +14,7 @@ matplotlib==3.2.1
 monotonic==1.5
 netifaces==0.10.6
 numpy==1.18.4
+opencv-python==4.2.0.34
 pandas==1.0.3
 Pillow==7.1.2
 pkg-resources==0.0.0

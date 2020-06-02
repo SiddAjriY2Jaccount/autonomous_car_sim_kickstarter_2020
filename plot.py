@@ -77,4 +77,4 @@ def plot(data=None, out_path=None):
         sys.stdout.flush()
 
 if  __name__ =='__main__':
-    plot()
+    plot(data='./data/driving_log.csv')
