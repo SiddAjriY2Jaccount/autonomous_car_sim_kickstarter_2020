@@ -28,8 +28,8 @@ Pre-requisites: python3.6+, pip, venv (recommended)
 At this point, you will be able to run the Simulator in Autonomous mode. Execute the command ```python drive.py model.h5``` to use the pre-trained model provided in this repository. Now, open the Simulator and select Autonomous mode to observe the car traverse the track autonomously.
 
 ## Training a custom model
-- To train a custom model, you can make changes to the script `model_training.py` and run the command `python model_training.py`. This code will save the best performing model.
-- To enable GPU, change the `cpu.cuda` flag in `model_training.py` to `True`.
+- To train a custom model, you can make changes to the script `model_training.py` and run the command `python model_training.py`
+- If GPU is detected, the script will automatically resort to GPU acceleration.
 
 ## Troubleshooting errors
 Raise an issue or drop an email at [y2jsiddajri@gmail.com](mailto:y2jsiddajri@gmail.com)
