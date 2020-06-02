@@ -3,7 +3,7 @@ This repository contains all the files and instructions to get your own autonomo
 
 Pre-requisites: python3.6+, pip, venv (recommended)
 
-## Installations
+## Setup
 **1. Unity**
 - We need a specific version of Unity to run the Udacity simulator (namely 5.5.1.xf1)
 - First, download the .deb file from [here](https://beta.unity3d.com/download/f5287bef00ff/public_download.html)
@@ -22,3 +22,11 @@ Pre-requisites: python3.6+, pip, venv (recommended)
 - Unzip the file ```prebuilt_selfdriving.tar.gz```
 - It will give you the 'data' directory wherein an example training set of images are provided.
 - If you want to gather your own data, then run the Simulator in 'Training Mode' and select 'data' directory to store the recorded images and log file.
+
+At this point, you will be able to run the Simulator in Autonomous mode. Execute the command ```python drive.py model.h5``` to use the pre-trained model provided in this repository. Now, open the Simulator and select Autonomous mode to observe the car traverse the track autonomously.
+
+## Training a custom model
+- To train a custom model, you can make changes to the script `model_training.py` and run the command `python model_training.py`. This code will save the best performing model.
+
+### Troubleshooting errors
+Raise an issue or drop an email at [mailto:y2jsiddajri@gmail.com](y2jsiddajri@gmail.com)
