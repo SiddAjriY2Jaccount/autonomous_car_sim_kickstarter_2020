@@ -3,6 +3,8 @@ This repository contains all the files and instructions to get your own autonomo
 
 Pre-requisites: python3.6+, pip, venv (recommended)
 
+![image info](./car_demo.png) 
+  
 ## Setup
 **1. Unity**
 - We need a specific version of Unity to run the Udacity simulator (namely 5.5.1.xf1)
@@ -27,7 +29,7 @@ At this point, you will be able to run the Simulator in Autonomous mode. Execute
 
 ## Training a custom model
 - To train a custom model, you can make changes to the script `model_training.py` and run the command `python model_training.py`. This code will save the best performing model.
-- To wnable GPU, change the `cpu.cuda` flag in `model_training.py` to `True`.
+- To enable GPU, change the `cpu.cuda` flag in `model_training.py` to `True`.
 
 ## Troubleshooting errors
 Raise an issue or drop an email at [y2jsiddajri@gmail.com](mailto:y2jsiddajri@gmail.com)
