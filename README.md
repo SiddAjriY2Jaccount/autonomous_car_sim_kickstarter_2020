@@ -1,5 +1,7 @@
 # autonomous_car_sim_kickstarter_2020
-This repository contains all the files and instructions to get your own autonomous car simulator up and running using Unity, Udacity's car simulator and pytorch.
+This repository contains all the files and instructions to get your own autonomous car simulator up and running on your Linux machine using Unity, Udacity's car simulator and PyTorch.
+
+Pre-requisites: python3.6+, pip, venv (recommended)
 
 ## Installations
 **1. Unity**
@@ -14,4 +16,9 @@ This repository contains all the files and instructions to get your own autonomo
 - After unzipping the file, add executable permissions to the file (Note that path to executable may vary): ```sudo chmod +x ./beta_simulator_linux/beta_simulator.x86_64```
 - Now, you will be able to run the simulator.
 
-**3. **
+**3. Clone this repository**
+- Now, clone this repository: ```git clone https://github.com/SiddAjriY2Jaccount/autonomous_car_sim_kickstarter_2020```
+- Now we install all the requirements and dependencies to train a model using PyTorch as well as link the model's results to the Simulator: ```pip install -r requirements.txt ```  
+- Unzip the file ```prebuilt_selfdriving.tar.gz```
+- It will give you the 'data' directory wherein an example training set of images are provided.
+- If you want to gather your own data, then run the Simulator in 'Training Mode' and select 'data' directory to store the recorded images and log file.
