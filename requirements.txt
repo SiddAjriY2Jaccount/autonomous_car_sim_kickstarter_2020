@@ -3,7 +3,7 @@ cycler==0.10.0
 DateTime==4.3
 dnspython==1.16.0
 eventlet==0.31.0
-Flask==1.1.2
+Flask==2.3.2
 future==0.18.2
 greenlet==0.4.15
 itsdangerous==1.1.0
